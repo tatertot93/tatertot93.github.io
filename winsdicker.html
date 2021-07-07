@@ -5,18 +5,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"  />
 <style>
 	body {
-		font-family: arial, sans serif;
-	}
-		{
+		font-family: "arial", sans-serif;
  		box-sizing: border-box;
 	}
 	header {
-		background-color: #666;
 		padding: 30px;
 		text-align: left;
 		font-size: 20px;
 		color: white;
 	}
+	#header-img {
+		opacity: 0.3;
+		z-index: 1;
+	}
+	#header-text {
+		z-index: 2;
+	}
+		
 /* Style the top navigation bar */
 	.topnav {
   		overflow: hidden;
@@ -62,7 +67,9 @@
 </head>
 <body>
 	<header>
-			<h1 style="color: white; font-size: 50px"> Winsdicker </h1>
+		<img id="header-img" src="winsdicker-long.jpg"></img>
+		<h1 id="header-text" style="color: white; font-size: 50px"> Winsdicker </h1>
+		
 	</header>
 		<nav class="topnav">
   			<a href="index.html">Taylorboi</a>
