@@ -7,6 +7,7 @@
 	body {
 		font-family: "arial", sans-serif;
  		box-sizing: border-box;
+		background-color: #FFF8E7
 	}
 	
 	#winsdicker-long {
@@ -43,6 +44,31 @@
   		background-color: #ddd;
   		color: black;
 	}
+	.typewriter h1 {
+  		color: black;
+  		font-family: monospace;
+  		overflow: hidden;
+  		border-right: .15em solid orange; 
+  		white-space: nowrap; 
+  		margin: 0 auto; 
+  		letter-spacing: .15em; 
+  		animation: 
+    	typing 3.5s steps(24, end),
+   		blink-caret .5s step-end infinite;
+   		animation-iteration-count: infinite;
+	}
+
+	@keyframes typing {
+  		from { width: 0 }
+  		to { width: 100% }
+
+	}
+
+	@keyframes blink-caret {
+  		from, to { border-color: transparent }
+  		50% { border-color: orange }
+	}
+		
 	Main {
 		float: left;
 		width: auto;
@@ -101,6 +127,9 @@
 			<a href="richard.html">Richard</a>
   			<a href="The-Professor.html">The Professor</a>
 		</nav>
+		<div class="typewriter">
+			<h1>Dear Lord please help me my eyes are bleeding</h1>
+		</div>
 	<main>
 		<h1 style="color: blue"> This man is very ill. </h1>
 			<p style="color: green"><i> He has just been diagnosed with Ligma. Please donate. </i> </p>
