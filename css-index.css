@@ -1,3 +1,5 @@
+
+
 .grid-container {
 	padding: 2em;
 	background-color: gray;
@@ -27,6 +29,7 @@
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
+ 	margin: 1em;
 	grid-row-start: 2;
 	background-color: #F1948A;
 	}
@@ -35,7 +38,7 @@
 	padding: 1em;
 	grid-column-start: 2;
 	grid-row-start: 2;
-	background-color: MediumSeaGreen;
+	background-color: white;
 	}
 	
 .grid-item-faq {
@@ -47,7 +50,7 @@
 	}
 	
 .accordion {
-  background-color: #eee;
+  background-color: #A0BBA2;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -77,6 +80,7 @@
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
+  	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 3;
 	background-color: #BB8FCE;
@@ -89,7 +93,7 @@
 	grid-column-start: 2;
 	grid-row-start: 3;
 	grid-row-end: 5;
-	background-color: MediumSeaGreen;
+	background-color: white;
 	}
 	
 .grid-item-win {
@@ -99,6 +103,7 @@
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
+  	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 4;
 	background-color: #85C1E9;
@@ -111,6 +116,7 @@
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
+  	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 5;
 	background-color: #7DCEA0;
@@ -120,7 +126,7 @@
 	padding: 1em;
 	grid-column-start: 2;
 	grid-row-start: 5;
-	background-color: MediumSeaGreen;
+	background-color: white;
 	}
 	
 .grid-item-sidetext {
@@ -128,7 +134,7 @@
 	grid-column-start: 3;
 	grid-row-start: 5;
 	grid-row-end: 8;
-	background-color: MediumSeaGreen;
+	background-color: white;
 	}
 	
 .grid-item-pro {
@@ -139,6 +145,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
+ 	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 6;
 }
@@ -150,7 +157,7 @@
 	grid-column-start: 2;
 	grid-row-start: 6;
 	grid-row-end: 8;
-	background-color: MediumSeaGreen;
+	background-color: white;
 	}
 	
 .grid-item-bb {
@@ -160,6 +167,7 @@
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
+  	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 7;
 	background-color: #85929E;
