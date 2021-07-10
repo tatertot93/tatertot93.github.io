@@ -1,123 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<lang: en>
-	<style>
-		       .header {
-        text-align: center;
-        font-family: "arial";
-        background-color: #8cffa0;
-      }
-			
-			.main-container {
-				display: grid;
-				grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-				grid-gap: 1em;
-        grid-template-areas: "cor welcome faq"
-                           "gal ladslogo faq"
-                            "win lagslogo faq"
-                            "ric middletext faq"
-                            "pro taylorboi sidetext"
-                             "bb taylorboi sidetext";
-	      grid-auto-rows: minmax(100px, auto);		
-        }
-			
-			.nav {
-        grid-area: nav;
-				text-align: center;
-				font-size: 50px;
-			}
-    
-      #cor {
-        grid-area: cor;
-        background-color: red;
-        }
-      #gal {
-        grid-area: gal;
-         background-color: pink;
-        }
-      #win {
-        grid-area: win;
-        background-color: green;
-        }
-      #ric {
-        grid-area: ric;
-        background-color: orange;
-      }
-      #pro {
-        grid-area: pro;
-        background-color: purple;
-      }
-
-    #bb {
-      grid-area: bb;
-      background-color: black;
-    }
-			.textbox {
-				font-family: "comic-sans", sans-serif;
-				background-color: gray;			
-				}
-			
-			#welcome {
-        grid-area: welcome;
-			}
-			
-			#faq {
-        background-color: blue;
-        grid-area: faq;
-
-			}
-			
-			#middletext {
-        grid-area: middletext;
-
-			}
-			
-			#taylorboi {
-        grid-area: taylorboi;
-        background-color: yellow;
-
-				}
-
-      #ladslogo {
-        grid-area: ladslogo;
-        background-color: indigo;
-
-      }
-			
-			#sidetext {
-
-				}
-	</style>
+	<title>rewriting css for index</title>
+	<meta name="generator" content="BBEdit 13.5" />
+	<link rel="stylesheet"
+	href="css-index.css">
 </head>
 <body>
-		<header>
-			<h1>Taylorboi & the Lads</h1>
-		</header>
-		<div class="main-container">
-			
-		
-			<div class="textbox" id="welcome">
-				<p>Welcome to my site. I'm bad at coding. I hope that each page conveys a bit about each of us.</p>
-			</div>
-			<nav>
-
-	 			<a id="cor" href="corlicker.html">C</a>
-
-  		  <a id="gal" href="gallagooch.html">G</a>
-
-  			<a id="win" href="winsdicker.html">W</a>
-
-  			<a id="ric" href="richard.html">R</a>
-
-  			<a id="pro" href="The-Professor.html">P</a>
-
-  			<a id="bb" href="blog.html">Bonobo Blog</a>
-			</nav>
-			
-			<div id="faq">
-				<h2>FAQ</h2>
+	<div class="grid-container">
+		<div class="grid-item-head"><h1>Taylorboi & the Lads</h1></div>
+		<div class="grid-item-welcome">Welcome to my site. I'm bad at coding. I hope that each page conveys a bit about each of us.</div>
+		<div class="grid-item-cor"><a id="cor" href="corlicker.html">C</a></div>
+		<div class="grid-item-welcome"></div>
+		<div class="grid-item-faq"><h2>FAQ</h2>
 <!--text and formatting will be figured out. Not sure if it will end up as a list of a paragraph-->
 				<h3><b>Who are you?</b></h3>
 				<br>
@@ -133,22 +28,18 @@
 				<br>
 				<h3><b>Who is Jake?</b></h3>
 				<br>
-				<p>Wouldn't you like to know...</p>
-			</div>
+				<p>Wouldn't you like to know...</p></div>
+		<div class="grid-item-gal"><a id="gal" href="gallagooch.html">G</a></div>
+		<div class="grid-item-logo">
 <!--This still needs to be created-->
-			<img id="ladslogo">
-
-			<div class="textbox" id="middletext">
-<!--Whatever goes here is TBD-->
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque, magna id gravida ultrices, est neque ullamcorper dolor, vel vehicula nunc risus eu nisi. Sed pellentesque ultrices ligula eu semper. Nulla enim erat, blandit vel nisl in, porta tempor leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat, urna a pretium euismod, tortor lectus convallis orci, at porttitor mi felis ut justo. Duis ac sodales magna. Aenean finibus convallis risus, non malesuada ligula finibus eget. Vivamus dui quam, blandit sed ultrices vel, consequat sit amet elit. Duis finibus semper est, id dictum leo auctor quis. </p>
-			</div>
-		  <div id="taylorboi">
-			<img  alt="short, darkhaired, bearded man sitting in giant rocking chair" src="/taylorboi.JPG">
-      </div>
-			<div class="textbox" id="sidetext">
-<!--Whatever goes here is TBD-->
-				<p>Nullam dapibus vulputate vulputate. Maecenas et leo tellus. Suspendisse eu mollis tortor, id vulputate orci. Maecenas viverra et leo sed commodo. Duis accumsan velit purus, sed blandit neque varius quis. Morbi nec ligula est. Sed eu tortor non lorem fringilla laoreet sit amet in urna.</p>
-			</div>
-		</div>
-
+			INSERT LOGO IMAGE HERE</div>
+		<div class="grid-item-ric"><a id="ric" href="richard.html">R</a></div>
+		<div class="grid-item-win"><a id="win" href="winsdicker.html">W</a></div>
+		<div class="grid-item-midtext">MIDTEXTlorem dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque, magna id gravida ultrices, est neque ullamcorper dolor, vel vehicula nunc risus eu nisi. Sed pellentesque ultrices ligula eu semper. Nulla enim erat, blandit vel nisl in, porta tempor leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat, urna a pretium euismod, tortor lectus convallis orci, at porttitor mi felis ut justo. Duis ac sodales magna. Aenean finibus convallis risus, non malesuada ligula finibus eget. Vivamus dui quam, blandit sed ultrices vel, consequat sit amet elit. Duis finibus semper est, id dictum leo auctor quis. </div>
+		<div class="grid-item-sidetext">SIDETEXT Nullam dapibus vulputate vulputate. Maecenas et leo tellus. Suspendisse eu mollis tortor, id vulputate orci. Maecenas viverra et leo sed commodo. Duis accumsan velit purus, sed blandit neque varius quis. Morbi nec ligula est. Sed eu tortor non lorem fringilla laoreet sit amet in urna.</div>
+		<div class="grid-item-pro"><a id="pro" href="The-Professor.html">P</a></div>
+		<div class="grid-item-photo"><img  alt="short, darkhaired, bearded man sitting in giant rocking chair" src="/taylorboi.JPG"></div>
+		<div class="grid-item-bb"><a id="bb" href="blog.html">Bonobo Blog</a></div>
+	</div>
 </body>
+</html>
