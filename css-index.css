@@ -9,6 +9,8 @@
 	
 .grid-item-head {
 	grid-column: span 3;
+	text-align: center;
+	font-family: "Bradley Hand", cursive
 	background-color: MediumSeaGreen;
 	}
 	
