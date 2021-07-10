@@ -2,7 +2,7 @@
 	background-color: gray;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-rows: 1fr;
+	grid-template-rows: repeat (7, 1fr);
 	grid-gap: 10px;
 
 	}
@@ -22,11 +22,10 @@
   	justify-content: center;
  	align-items: center;
 	grid-row-start: 2;
-	background-color: MediumSeaGreen;
+	background-color: #943939;
 	}
 	
 .grid-item-welcome {
-
 	grid-column-start: 2;
 	grid-row-start: 2;
 	background-color: MediumSeaGreen;
@@ -47,7 +46,7 @@
  	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 3;
-	background-color: MediumSeaGreen;
+	background-color: #A30090;
 	}
 	
 .grid-item-logo {
@@ -65,7 +64,7 @@
  	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 4;
-	background-color: MediumSeaGreen;
+	background-color: #8DAB91;
 	}
 	
 .grid-item-ric {
@@ -76,7 +75,7 @@
  	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 5;
-	background-color: MediumSeaGreen;
+	background-color: #F79D69;
 	}
 	
 .grid-item-midtext {
@@ -94,14 +93,14 @@
 	
 .grid-item-pro {
 	font-family: "Stencil Std", fantasy;
+	background-color: black;
 	font-size: 50px;
 	display: flex;
-  	justify-content: center;
- 	align-items: center;
+	justify-content: center;
+	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 6;
-	background-color: MediumSeaGreen;
-	}
+}
 	
 .grid-item-photo {
 	grid-column-start: 2;
@@ -112,11 +111,11 @@
 	
 .grid-item-bb {
 	font-family: "Jazz LET", fantasy;
-	font-size: 30px;
+	font-size: 50px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 7;
-	background-color: MediumSeaGreen;
+	background-color: #8F9EBE;
 	}
