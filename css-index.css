@@ -1,0 +1,88 @@
+.grid-container {
+	background-color: gray;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 10px;
+
+	}
+	
+.grid-item-head {
+	grid-column: span 3;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-cor {
+	grid-row-start: 2;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-welcome {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-faq {
+	grid-column-start: 3;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-gal {
+	grid-column-start: 1;
+	grid-row-start: 3;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-logo {
+	grid-column-start: 2;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-win {
+	grid-column-start: 1;
+	grid-row-start: 4;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-ric {
+	grid-column-start: 1;
+	grid-row-start: 5;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-midtext {
+	grid-column-start: 2;
+	grid-row-start: 5;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-sidetext {
+	grid-column-start: 3;
+	grid-row-start: 5;
+	grid-row-end: 8;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-pro {
+	grid-column-start: 1;
+	grid-row-start: 6;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-photo {
+	grid-column-start: 2;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	background-color: MediumSeaGreen;
+	}
+	
+.grid-item-bb {
+	grid-column-start: 1;
+	grid-row-start: 7;
+	background-color: MediumSeaGreen;
+	}
