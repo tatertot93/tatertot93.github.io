@@ -1,137 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>index-update</title>
-
-	
-		<style>
-			style {
-				display: grid;
-			
-			}
-				
-			.head-container {
-				display: grid;
-				grid-template-columns: 1fr 2fr 1fr;
-				grid-gap: 1em;
-				text-align: center;
-			}
+	<lang: en>
+	<style>
+		       .header {
+        text-align: center;
+        font-family: "arial";
+        background-color: #8cffa0;
+      }
 			
 			.main-container {
 				display: grid;
-				grid-template-columns: 1fr 3fr 1fr;
+				grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 				grid-gap: 1em;
-				grid-auto-rows: auto;
-			}
+        grid-template-areas: "cor welcome faq"
+                           "gal ladslogo faq"
+                            "win lagslogo faq"
+                            "ric middletext faq"
+                            "pro taylorboi sidetext"
+                             "bb taylorboi sidetext";
+	      grid-auto-rows: minmax(100px, auto);		
+        }
 			
-			header {
-				grid-column-start: 1;
-				grid-column-end: 3;
-				grid-row-start: 1;
-				grid-row-end: 1;
-				Font-family: "arial", sans-serif;
+			.nav {
+        grid-area: nav;
+				text-align: center;
+				font-size: 50px;
+			}
+    
+      #cor {
+        grid-area: cor;
+        background-color: red;
+        }
+      #gal {
+        grid-area: gal;
+         background-color: pink;
+        }
+      #win {
+        grid-area: win;
+        background-color: green;
+        }
+      #ric {
+        grid-area: ric;
+        background-color: orange;
+      }
+      #pro {
+        grid-area: pro;
+        background-color: purple;
+      }
 
-			}
-			
-			#cor {
-				font-size 50px;
-				grid-column: 1;
-				grid-row: 1;
-			}
-			#gal {
-				font-size 50px;
-				grid-column: 1;
-				grid-row: 2;
-			}
-			#win {
-				font-size 50px;
-				grid-column: 1;
-				grid-row: 3;
-			}
-			#ric {
-				font-size 50px;
-				grid-column: 1;
-				grid-row: 4;
-			}
-			#pro {
-				font-size 50px;
-				grid-column: 1;
-				grid-row: 5;
-			}
-			#bb {
-				font-size 50px;
-				grid-column: 1;
-				grid-row: 6;
-			}
-			
+    #bb {
+      grid-area: bb;
+      background-color: black;
+    }
 			.textbox {
-				font-family: "comic sans", sans-serif;
+				font-family: "comic-sans", sans-serif;
 				background-color: gray;			
 				}
 			
 			#welcome {
-				grid-column: 2;
-				grid-row: 1;
+        grid-area: welcome;
 			}
 			
 			#faq {
-				grid-column: 3;
-				grid-row: 1 / 4;
+        background-color: blue;
+        grid-area: faq;
 
 			}
 			
 			#middletext {
-				grid-column: 2;
-				grid-row: 4;
+        grid-area: middletext;
+
 			}
 			
-			#taylorboi.jpg {
-				grid-column: 2;
-				grid-row: 5 / 6;
+			#taylorboi {
+        grid-area: taylorboi;
+        background-color: yellow;
+
 				}
+
+      #ladslogo {
+        grid-area: ladslogo;
+        background-color: indigo;
+
+      }
 			
 			#sidetext {
-				grid-column: 3;
-				grid-row: 4 / 6:
-				}
-			
 
-			
-			
-		</style>	
+				}
+	</style>
 </head>
 <body>
-	<div class="head-container">
 		<header>
 			<h1>Taylorboi & the Lads</h1>
 		</header>
-	</div>
 		<div class="main-container">
-			<nav>
-				<div id=cor>
-	 				<a href="corlicker.html">C</a>
-	 			</div>
-	 			<div id=gal>
-  					<a href="gallagooch.html">G</a>
-  				</div>
-  				<div id=win>
-  					<a href="winsdicker.html">W</a>
-  				</div>
-  				<div id=ric>
-  					<a href="richard.html">R</a>
-  				</div>
-  				<div id=pro>
-  					<a href="The-Professor.html">P</a>
-  				</div>
-  				<div id=bb>
-  					<a href="blog.html">Bonobo Blog</a>
-  				</div>
-			</nav>
+			
 		
 			<div class="textbox" id="welcome">
 				<p>Welcome to my site. I'm bad at coding. I hope that each page conveys a bit about each of us.</p>
 			</div>
-		
+			<nav>
+
+	 			<a id="cor" href="corlicker.html">C</a>
+
+  		  <a id="gal" href="gallagooch.html">G</a>
+
+  			<a id="win" href="winsdicker.html">W</a>
+
+  			<a id="ric" href="richard.html">R</a>
+
+  			<a id="pro" href="The-Professor.html">P</a>
+
+  			<a id="bb" href="blog.html">Bonobo Blog</a>
+			</nav>
 			
 			<div id="faq">
 				<h2>FAQ</h2>
@@ -153,19 +136,19 @@
 				<p>Wouldn't you like to know...</p>
 			</div>
 <!--This still needs to be created-->
-			<img id="LadsLogo">
+			<img id="ladslogo">
 
 			<div class="textbox" id="middletext">
 <!--Whatever goes here is TBD-->
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque, magna id gravida ultrices, est neque ullamcorper dolor, vel vehicula nunc risus eu nisi. Sed pellentesque ultrices ligula eu semper. Nulla enim erat, blandit vel nisl in, porta tempor leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat, urna a pretium euismod, tortor lectus convallis orci, at porttitor mi felis ut justo. Duis ac sodales magna. Aenean finibus convallis risus, non malesuada ligula finibus eget. Vivamus dui quam, blandit sed ultrices vel, consequat sit amet elit. Duis finibus semper est, id dictum leo auctor quis. </p>
 			</div>
-		
-			<img id="taylorboi.jpg" alt="short, darkhaired, bearded man sitting in giant rocking chair" src="/taylorboi.JPG">
-		
+		  <div id="taylorboi">
+			<img  alt="short, darkhaired, bearded man sitting in giant rocking chair" src="/taylorboi.JPG">
+      </div>
 			<div class="textbox" id="sidetext">
 <!--Whatever goes here is TBD-->
 				<p>Nullam dapibus vulputate vulputate. Maecenas et leo tellus. Suspendisse eu mollis tortor, id vulputate orci. Maecenas viverra et leo sed commodo. Duis accumsan velit purus, sed blandit neque varius quis. Morbi nec ligula est. Sed eu tortor non lorem fringilla laoreet sit amet in urna.</p>
 			</div>
 		</div>
+
 </body>
-</html>
