@@ -1,4 +1,5 @@
 .grid-container {
+	padding: 2em;
 	background-color: gray;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
@@ -26,12 +27,14 @@
 	}
 	
 .grid-item-welcome {
+	padding: 1em;
 	grid-column-start: 2;
 	grid-row-start: 2;
 	background-color: MediumSeaGreen;
 	}
 	
 .grid-item-faq {
+	padding: 1em;
 	grid-column-start: 3;
 	grid-row-start: 2;
 	grid-row-end: 5;
@@ -50,6 +53,9 @@
 	}
 	
 .grid-item-logo {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 2;
 	grid-row-start: 3;
 	grid-row-end: 5;
@@ -79,12 +85,14 @@
 	}
 	
 .grid-item-midtext {
+	padding: 1em;
 	grid-column-start: 2;
 	grid-row-start: 5;
 	background-color: MediumSeaGreen;
 	}
 	
 .grid-item-sidetext {
+	padding: 1em;
 	grid-column-start: 3;
 	grid-row-start: 5;
 	grid-row-end: 8;
@@ -103,6 +111,9 @@
 }
 	
 .grid-item-photo {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 2;
 	grid-row-start: 6;
 	grid-row-end: 8;
