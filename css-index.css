@@ -1,3 +1,4 @@
+
 .grid-container {
 	padding: 2em;
 	background-color: gray;
@@ -12,19 +13,23 @@
 .grid-item-head {
 	font-size: 40px;
 	text-align: center;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	font-family: "Bradley Hand", cursive;
 	grid-column: span 3;
-	background-color: MediumSeaGreen;
+	background-color: #A0BBA2;
 	}
 	
 .grid-item-cor {
 	font-family: "Brush Script MT", cursive;
-	font-size: 50px;
+	font-size: 30px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
+ 	padding: 1em;
 	grid-row-start: 2;
-	background-color: #943939;
+	background-color: #F1948A;
 	}
 	
 .grid-item-welcome {
@@ -44,13 +49,14 @@
 	
 .grid-item-gal {
 	font-family: "Trattatello", fantasy;
-	font-size: 50px;
+	font-size: 30px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
+ 	padding: 1em;
 	grid-column-start: 1;
 	grid-row-start: 3;
-	background-color: #A30090;
+	background-color: #BB8FCE;
 	}
 	
 .grid-item-logo {
@@ -65,24 +71,26 @@
 	
 .grid-item-win {
 	font-family: "OCR A Std", monospace;
-	font-size: 50px;
+	font-size: 30px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
+ 	padding: 1em;
 	grid-column-start: 1;
 	grid-row-start: 4;
-	background-color: #8DAB91;
+	background-color: #85C1E9;
 	}
 	
 .grid-item-ric {
 	font-family: "DejaVu Sans Mono", monospace;
-	font-size: 50px;
+	font-size: 30px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
+ 	padding: 1em;
 	grid-column-start: 1;
 	grid-row-start: 5;
-	background-color: #F79D69;
+	background-color: #7DCEA0;
 	}
 	
 .grid-item-midtext {
@@ -102,11 +110,12 @@
 	
 .grid-item-pro {
 	font-family: "Stencil Std", fantasy;
-	background-color: black;
-	font-size: 50px;
+	background-color: #F7DC6F;
+	font-size: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1em;
 	grid-column-start: 1;
 	grid-row-start: 6;
 }
@@ -123,11 +132,12 @@
 	
 .grid-item-bb {
 	font-family: "Jazz LET", fantasy;
-	font-size: 50px;
+	font-size: 30px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
+ 	padding: 1em;
 	grid-column-start: 1;
 	grid-row-start: 7;
-	background-color: #8F9EBE;
+	background-color: #85929E;
 	}
