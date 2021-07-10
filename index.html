@@ -2,7 +2,74 @@
 <html>
 <head>
 	<title>rewriting css for index</title>
+	<meta<!DOCTYPE html>
+<html>
+<head>
+	<title>rewriting css for index</title>
 	<meta name="generator" content="BBEdit 13.5" />
+	<link rel="stylesheet"
+	href="css-index.css">
+</head>
+<body>
+	<div class="grid-container">
+		<div class="grid-item-head"><h1>Taylorboi & the Lads</h1></div>
+		<div class="grid-item-welcome">Welcome to my site. I'm bad at coding. I hope that each page conveys a bit about each of us.</div>
+		<div class="grid-item-cor"><a id="cor" href="corlicker.html">Corlicker</a></div>
+		
+		
+		<div class="grid-item-faq">
+<!--text and formatting will be figured out. Not sure if it will end up as a list of a paragraph-->
+			<h2>FAQ</h2>
+				<button class="accordion"><b>What is the purpose of this site?</b></button>
+			<div class="panel">
+  				<p>shitposting</p>
+			</div>
+				<button class="accordion"><b>Who are you people?</b></button>
+			<div class="panel">
+ 				<p>We are the lads</p>
+			</div>
+				<button class="accordion"><b>Who is Jake?</b></button>
+			<div class="panel">
+ 			 	<p>Wouldn't you like to know...</p>
+			</div>
+			
+			
+<!--Beginning of JS-->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<!--End of JS-->
+
+
+</div>
+		<div class="grid-item-gal"><a id="gal" href="gallagooch.html">Gallagooch</a></div>
+		<div class="grid-item-logo">
+<!--This still needs to be created-->
+			INSERT LOGO IMAGE HERE</div>
+		<div class="grid-item-ric"><a id="ric" href="richard.html">Richard</a></div>
+		<div class="grid-item-win"><a id="win" href="winsdicker.html">Winsdicker</a></div>
+		<div class="grid-item-midtext">MIDTEXTlorem dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque, magna id gravida ultrices, est neque ullamcorper dolor, vel vehicula nunc risus eu nisi. Sed pellentesque ultrices ligula eu semper. Nulla enim erat, blandit vel nisl in, porta tempor leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat, urna a pretium euismod, tortor lectus convallis orci, at porttitor mi felis ut justo. Duis ac sodales magna. Aenean finibus convallis risus, non malesuada ligula finibus eget. Vivamus dui quam, blandit sed ultrices vel, consequat sit amet elit. Duis finibus semper est, id dictum leo auctor quis. </div>
+		<div class="grid-item-sidetext">SIDETEXT Nullam dapibus vulputate vulputate. Maecenas et leo tellus. Suspendisse eu mollis tortor, id vulputate orci. Maecenas viverra et leo sed commodo. Duis accumsan velit purus, sed blandit neque varius quis. Morbi nec ligula est. Sed eu tortor non lorem fringilla laoreet sit amet in urna.</div>
+		<div class="grid-item-pro"><a id="pro" href="The-Professor.html">Professor</a></div>
+		<div class="grid-item-photo"><img  alt="short, darkhaired, bearded man sitting in giant rocking chair" src="/taylorboi.JPG"></div>
+		<div class="grid-item-bb"><a id="bb" href="blog.html">Bonobo Blog</a></div>
+	</div>
+</body>
+</html>
+ name="generator" content="BBEdit 13.5" />
 	<link rel="stylesheet"
 	href="css-index.css">
 </head>
