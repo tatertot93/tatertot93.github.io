@@ -8,18 +8,25 @@
 	}
 	
 .grid-item-head {
-	grid-column: span 3;
+	font-size: 40px;
 	text-align: center;
-	font-family: "Bradley Hand", cursive
+	font-family: "Bradley Hand", cursive;
+	grid-column: span 3;
 	background-color: MediumSeaGreen;
 	}
 	
 .grid-item-cor {
+	font-family: "Brush Script MT", cursive;
+	font-size: 50px;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-row-start: 2;
 	background-color: MediumSeaGreen;
 	}
 	
 .grid-item-welcome {
+
 	grid-column-start: 2;
 	grid-row-start: 2;
 	background-color: MediumSeaGreen;
@@ -33,6 +40,11 @@
 	}
 	
 .grid-item-gal {
+	font-family: "Trattatello", fantasy;
+	font-size: 50px;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 3;
 	background-color: MediumSeaGreen;
@@ -46,12 +58,22 @@
 	}
 	
 .grid-item-win {
+	font-family: "OCR A Std", monospace;
+	font-size: 50px;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 4;
 	background-color: MediumSeaGreen;
 	}
 	
 .grid-item-ric {
+	font-family: "DejaVu Sans Mono", monospace;
+	font-size: 50px;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 5;
 	background-color: MediumSeaGreen;
@@ -71,6 +93,11 @@
 	}
 	
 .grid-item-pro {
+	font-family: "Stencil Std", fantasy;
+	font-size: 50px;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 6;
 	background-color: MediumSeaGreen;
@@ -84,6 +111,11 @@
 	}
 	
 .grid-item-bb {
+	font-family: "Jazz LET", fantasy;
+	font-size: 30px;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column-start: 1;
 	grid-row-start: 7;
 	background-color: MediumSeaGreen;
