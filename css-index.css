@@ -22,7 +22,8 @@ body {
 	border: 8px;
 	border-style: outset;
 	border-color: #04620B;
-	
+}
+.ladslogo-top{
 	background-image: url(ladslogo-top.png);
 	background-size: cover;
 	}
