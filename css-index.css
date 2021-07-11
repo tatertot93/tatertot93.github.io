@@ -17,7 +17,6 @@ body {
 	display: flex;
   	justify-content: center;
  	align-items: center;
-	font-family: "Lucida sans", sans-serif;
 	grid-column: span 3;
 	background-color: #A0BBA2;
 	border: 8px;
