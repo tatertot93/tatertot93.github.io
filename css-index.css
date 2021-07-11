@@ -8,7 +8,6 @@
 	grid-template-rows: repeat (7, 1fr);
 	grid-auto-rows: 1fr;
 	grid-gap: 10px;
-
 	}
 	
 .grid-item-head {
@@ -19,6 +18,9 @@
 	font-family: "Lucida sans", sans-serif;
 	grid-column: span 3;
 	background-color: #A0BBA2;
+	border: 8px;
+	border-style: outset;
+	border-color: #04620B;
 	}
 	
 .grid-item-cor {
