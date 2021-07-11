@@ -16,7 +16,7 @@ body {
 	grid-column: 1 / 4;
   	display: grid;
   	grid-template-columns: 1fr 3fr 2fr;
-  	grid-template-rows: 1fr
+  	grid-template-rows: 1fr;
   	margin: 1em;
   	background-image: url(/ladslogo-top.png);
  	background-repeat: no-repeat;
