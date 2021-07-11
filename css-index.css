@@ -39,7 +39,10 @@
 	padding: 1em;
 	grid-column-start: 2;
 	grid-row-start: 2;
-	background-color: white;
+	background-color: #FFFAE1;
+	border: 4px;
+	border-style: outset;
+	border-color: #A0BBA2;
 	}
 	
 .grid-item-faq {
@@ -131,7 +134,7 @@
 	padding: 1em;
 	grid-column-start: 2;
 	grid-row-start: 5;
-	background-color: white;
+	background-color: #FFFAE1;
 	}
 	
 .grid-item-sidetext {
@@ -139,7 +142,7 @@
 	grid-column-start: 3;
 	grid-row-start: 5;
 	grid-row-end: 8;
-	background-color: white;
+	background-color: #FFFAE1;
 	}
 	
 .grid-item-pro {
