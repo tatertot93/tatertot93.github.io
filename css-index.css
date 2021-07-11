@@ -16,12 +16,14 @@ body {
 	display: flex;
   	justify-content: center;
  	align-items: center;
-	grid-column: 1 / 4;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
 	border: 8px;
 	Width: auto;
 	height: auto;
 	background-image: url(ladslogo-top.png);
-	grid-row: 1 / 2;
 }
 
 	
