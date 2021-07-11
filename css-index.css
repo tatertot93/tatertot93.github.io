@@ -29,7 +29,7 @@
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
- 	margin: 1em;
+ 	margin: 1px;
 	grid-row-start: 2;
 	background-color: #BFC9CA;
 	border-radius: 30px;
@@ -80,12 +80,12 @@
 	
 .grid-item-gal {
 	font-family: "Trattatello", fantasy;
-	font-size: 30px;
+	font-size: 50px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
-  	margin: 1em;
+  	margin: 1px;
 	grid-column-start: 1;
 	grid-row-start: 3;
 	background-color: #BFC9CA;
@@ -104,12 +104,12 @@
 	
 .grid-item-win {
 	font-family: "OCR A Std", monospace;
-	font-size: 30px;
+	font-size: 50px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
-  	margin: 1em;
+  	margin:1px;
 	grid-column-start: 1;
 	grid-row-start: 4;
 	background-color: #BFC9CA;
@@ -118,12 +118,12 @@
 	
 .grid-item-ric {
 	font-family: "DejaVu Sans Mono", monospace;
-	font-size: 30px;
+	font-size: 50px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
-  	margin: 1em;
+  	margin: 1px;
 	grid-column-start: 1;
 	grid-row-start: 5;
 	background-color: #BFC9CA;
@@ -148,12 +148,12 @@
 .grid-item-pro {
 	font-family: "Stencil Std", fantasy;
 	background-color: #BFC9CA;
-	font-size: 30px;
+	font-size: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
- 	margin: 1em;
+ 	margin: 1px;
 	grid-column-start: 1;
 	grid-row-start: 6;
 	border-radius: 30px;
@@ -171,12 +171,12 @@
 	
 .grid-item-bb {
 	font-family: "Jazz LET", fantasy;
-	font-size: 30px;
+	font-size: 50px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
  	padding: 1em;
-  	margin: 1em;
+  	margin: 1px;
 	grid-column-start: 1;
 	grid-row-start: 7;
 	background-color: #BFC9CA;
