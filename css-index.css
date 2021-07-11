@@ -26,6 +26,8 @@ body {
 .ladslogo-top{
 	background-image: url(ladslogo-top.png);
 	background-size: cover;
+	height: 50%;
+	width: 60%;
 	}
 	
 .grid-item-cor {
