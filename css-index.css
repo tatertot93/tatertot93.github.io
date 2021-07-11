@@ -13,12 +13,13 @@ body {
 	}
 	
 .ladslogo-top {
+	padding: 1em;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	background: url ('image/ladslogo-top.png') center center;
- 	background-size: cover;
+	background-color: white;
+
 }
 
 	
