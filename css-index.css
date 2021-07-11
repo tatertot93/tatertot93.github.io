@@ -14,10 +14,7 @@ body {
 	
 .grid-item-head {
 	padding: 1em;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-column: 1/4;
 	background-color: #FFFAE1;
 	border: 5px;
 	border-style: outset;
