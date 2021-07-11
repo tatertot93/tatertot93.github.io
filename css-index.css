@@ -37,6 +37,7 @@
 	background-position: center;
 	background-image-width: 100px;
 	background-image-height: 100px;
+	background-image-opacity: 50%;
 	}
 	
 .grid-item-welcome {
