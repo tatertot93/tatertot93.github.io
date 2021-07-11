@@ -12,15 +12,12 @@ body {
 	grid-gap: 10px;
 	}
 	
-.grid-item-head {
+.ladslogo-top {
 	display: flex;
   	justify-content: center;
  	align-items: center;
 	grid-column: span 3;
-	background-color: #A0BBA2;
 	border: 8px;
-	border-style: outset;
-	border-color: #04620B;
 	background-image: url(ladslogo-top.png);
 	background-size: cover;
 }
