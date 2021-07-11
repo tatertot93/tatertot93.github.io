@@ -35,7 +35,8 @@
 	border-radius: 30px;
 	background-image: url(sam-moqadam-unsplash.jpg);
 	background-position: center;
-	background-image-width: auto;
+	background-image-width: 1fr;
+	background-image-height: 1fr;
 	}
 	
 .grid-item-welcome {
