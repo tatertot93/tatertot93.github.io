@@ -13,9 +13,6 @@ body {
 	}
 	
 .ladslogo-top {
-	display: flex;
-  	justify-content: center;
- 	align-items: center;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 1;
@@ -24,6 +21,9 @@ body {
 	Width: auto;
 	height: auto;
 	background-image: url(ladslogo-top.png);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center; 
 }
 
 	
