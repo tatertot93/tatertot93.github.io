@@ -30,7 +30,7 @@
  	padding: 1em;
  	margin: 1em;
 	grid-row-start: 2;
-	background-color: #F1948A;
+	background-color: #BFC9CA;
 	}
 	
 .grid-item-welcome {
@@ -83,7 +83,7 @@
   	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 3;
-	background-color: #BB8FCE;
+	background-color: #BFC9CA;
 	}
 	
 .grid-item-logo {
@@ -106,7 +106,7 @@
   	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 4;
-	background-color: #85C1E9;
+	background-color: #BFC9CA;
 	}
 	
 .grid-item-ric {
@@ -119,7 +119,7 @@
   	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 5;
-	background-color: #7DCEA0;
+	background-color: #BFC9CA;
 	}
 	
 .grid-item-midtext {
@@ -139,7 +139,7 @@
 	
 .grid-item-pro {
 	font-family: "Stencil Std", fantasy;
-	background-color: #F7DC6F;
+	background-color: #BFC9CA;
 	font-size: 30px;
 	display: flex;
 	justify-content: center;
@@ -170,5 +170,5 @@
   	margin: 1em;
 	grid-column-start: 1;
 	grid-row-start: 7;
-	background-color: #85929E;
+	background-color: #BFC9CA;
 	}
