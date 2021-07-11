@@ -13,10 +13,14 @@ body {
 	}
 	
 .ladslogo-top {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-column: 1 / 4;
+  	display: grid;
+  	grid-template-columns: 1fr 3fr 2fr;
+  	grid-template-rows: 1fr
+  	margin: 1em;
+  	background-image: url(ladslogo-top.png);
+ 	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 	
