@@ -173,6 +173,8 @@
 	grid-row-start: 6;
 	grid-row-end: 8;
 	background-color: #04620B;
+	width: 80%;
+	height: 80%;
 	}
 	
 .grid-item-bb {
