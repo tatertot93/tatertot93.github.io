@@ -13,7 +13,6 @@ body {
 	}
 	
 .grid-item-head {
-	text-align: center;
 	display: flex;
   	justify-content: center;
  	align-items: center;
@@ -22,13 +21,10 @@ body {
 	border: 8px;
 	border-style: outset;
 	border-color: #04620B;
-}
-.ladslogo-top{
 	background-image: url(ladslogo-top.png);
 	background-size: cover;
-	height: 50%;
-	width: 60%;
-	}
+}
+
 	
 .grid-item-cor {
 	font-family: "Brush Script MT", cursive;
