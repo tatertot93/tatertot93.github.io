@@ -18,6 +18,8 @@ body {
  	align-items: center;
 	grid-column: 1 / 4;
 	border: 8px;
+	Width: 200px;
+	height: 100px;
 	background-image: url(ladslogo-top.png);
 	background-size: cover;
 	grid-row: 1 / 2;
