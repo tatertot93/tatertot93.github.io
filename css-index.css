@@ -37,6 +37,13 @@ body {
 	grid-row-end: 8;
 }
 
+.plink{
+	border-style: solid;
+	border: 3px;
+	border-color: #A0BBA2;
+}
+	
+	
 .plink:hover {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
