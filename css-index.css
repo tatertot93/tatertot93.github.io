@@ -29,6 +29,9 @@ body {
 
 
 .grid-item-cor {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;
   width: 200px;
@@ -93,6 +96,9 @@ body {
 
 
 .grid-item-gal {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column: 1 / 2;
 	grid-row: 3 / 4;
   width: 200px;
@@ -112,10 +118,12 @@ body {
 	border: 8px;
 	border-style: outset;
 	border-color: #A0BBA2;
-	width: 500px;
 	}
 	
 .grid-item-win {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column: 1 / 2;
 	grid-row: 4 / 5;
   width: 200px;
@@ -123,6 +131,9 @@ body {
 	}
 	
 .grid-item-ric {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column: 1 / 2;
 	grid-row: 5 / 6;
   width: 200px;
@@ -154,6 +165,9 @@ body {
 	}
 	
 .grid-item-pro {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column: 1 / 2;
 	grid-row: 6 / 7;
   width: 200px;
@@ -168,12 +182,14 @@ body {
 	grid-column-start: 2;
 	grid-row-start: 6;
 	grid-row-end: 8;
-	width: 500px;
 	}
 	
 .grid-item-bb {
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
 	grid-column: 1 / 2;
-	grid-row: 6 / 7;
+	grid-row: 7 / 8;
   width: 200px;
   max-height: 200px;
 	}
