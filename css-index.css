@@ -31,6 +31,8 @@ body {
   object-fit: cover;
   width: 200px;
   max-height: 200px;
+	grid-column-start: 1;
+	grid-row-start: 2;
 	
 }
 	
@@ -93,6 +95,8 @@ body {
   object-fit: cover;
   width: 200px;
   max-height: 200px;
+	grid-column-start: 1;
+	grid-row-start: 2;
 	
 }
 	
