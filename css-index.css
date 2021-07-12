@@ -27,8 +27,7 @@ body {
 }
 
 
-.grid-item-cor > img {
-  object-fit: cover;
+.grid-item-cor {
   width: 200px;
   max-height: 200px;
 	
@@ -90,8 +89,7 @@ body {
 }
 
 
-.grid-item-gal > img {
-  object-fit: cover;
+.grid-item-gal {
   width: 200px;
   max-height: 200px;
 
@@ -111,14 +109,12 @@ body {
 	border-color: #A0BBA2;
 	}
 	
-.grid-item-win > img {
-  object-fit: cover;
+.grid-item-win {
   width: 200px;
   max-height: 200px;
 	}
 	
-.grid-item-ric > img {
-  object-fit: cover;
+.grid-item-ric {
   width: 200px;
   max-height: 200px;	
 	}
@@ -147,8 +143,7 @@ body {
 	border-color: #A0BBA2;
 	}
 	
-.grid-item-pro > img {
-  object-fit: cover;
+.grid-item-pro {
   width: 200px;
   max-height: 200px;
 	}
@@ -162,8 +157,7 @@ body {
 	grid-row-end: 8;
 	}
 	
-.grid-item-bb > img {
-  object-fit: cover;
+.grid-item-bb {
   width: 200px;
   max-height: 200px;
 	}
