@@ -113,15 +113,13 @@ body {
   object-fit: cover;
   width: 200px;
   max-height: 200px;
-	
-}
+	}
 	
 .grid-item-ric > img {
   object-fit: cover;
   width: 200px;
-  max-height: 200px;
-	
-}
+  max-height: 200px;	
+	}
 	
 	
 .grid-item-midtext {
@@ -151,10 +149,9 @@ body {
   object-fit: cover;
   width: 200px;
   max-height: 200px;
-
+	}
 
 .grid-item-photo {
-	border: 10px solid black;
 	display: flex;
   	justify-content: center;
  	align-items: center;
