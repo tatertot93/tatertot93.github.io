@@ -119,6 +119,9 @@ body {
 	grid-row-start: 3;
 	grid-row-end: 5;
 	background-color: #04620B;
+	border: 5px;
+	border-style: outset;
+	border-color: #A0BBA2;
 	}
 	
 .grid-item-win {
