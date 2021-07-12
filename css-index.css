@@ -52,6 +52,13 @@ body {
 	border-style: outset;
 	border-color: #A0BBA2;
 	}
+
+h1 {
+	color:#04620B;
+	font-weight: bold;
+	font-family: cursive;
+}
+	
 	
 .grid-item-faq {
 	padding: 1em;
