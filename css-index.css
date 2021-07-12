@@ -29,7 +29,7 @@ body {
 
 
 .grid-item-nav {
-	display: flex;
+	display: inline;
 	possition: relative;
 	grid-column-start: 1;
 	grid-column-end: 2;
