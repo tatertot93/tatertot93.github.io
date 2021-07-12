@@ -37,11 +37,6 @@ body {
 	grid-row-end: 8;
 }
 
-.plink{
-	border-style: solid;
-	border: 5px;
-	border-color: #04620B;
-}
 	
 	
 .plink:hover {
