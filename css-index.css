@@ -116,19 +116,13 @@ body {
 	
 }
 	
-.grid-item-ric {
-	font-family: "Brush Script MT", cursive;
-	font-size: 40px;
-	display: flex;
-  	justify-content: center;
- 	align-items: center;
- 	padding: 5px;
-  	margin: 1px;
-	grid-column-start: 1;
-	grid-row-start: 5;
-	background-color: #BFC9CA;
-	border-radius: 30px;
-	}
+.grid-item-ric > img {
+  object-fit: cover;
+  width: 200px;
+  max-height: 200px;
+	
+}
+	
 	
 .grid-item-midtext {
 	font-family: "arial", sans-serif;
