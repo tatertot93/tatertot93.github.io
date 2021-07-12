@@ -26,11 +26,12 @@ body {
  	align-items: center;
 }
 
-	
+.grid-item-cor {
+	grid-column-start: 1;
+	grid-row-start: 2;
+}
+
 .grid-item-cor > img {
-	display: flex;
-  	justify-content: center;
- 	align-items: center;
   object-fit: cover;
   width: 200px;
   max-height: 200px;
@@ -91,7 +92,11 @@ body {
   background-color: white;
   overflow: hidden;
 }
-	
+
+.grid-item-gal {
+	grid-column-start: 1;
+	grid-row-start: 2;
+}
 .grid-item-gal > img {
   object-fit: cover;
   width: 200px;
