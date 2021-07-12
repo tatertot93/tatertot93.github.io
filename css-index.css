@@ -44,8 +44,7 @@ body {
 	
 .grid-item-welcome {
 	font-family: "arial", sans-serif;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 1em;
 	font-size: 15px;
 	grid-column-start: 2;
 	grid-row-start: 2;
