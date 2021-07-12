@@ -143,8 +143,12 @@ body {
 	border-style: outset;
 	border-color: #A0BBA2;
 	}
-	
 
+#sidetext {
+	font-family: "arial", sans-serif;
+	padding: 1em;
+	font-size: 15px;
+	}
 
 .grid-item-photo {
 	display: flex;
