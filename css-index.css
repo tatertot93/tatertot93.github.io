@@ -93,7 +93,7 @@ body {
 }
 	
 .grid-item-gal {
-	font-family: "Trattatello", fantasy;
+	font-family: "Brush Script MT", cursive;
 	font-size: 40px;
 	display: flex;
   	justify-content: center;
@@ -117,7 +117,7 @@ body {
 	}
 	
 .grid-item-win {
-	font-family: "OCR A Std", monospace;
+	font-family: "Brush Script MT", cursive;
 	font-size: 40px;
 	display: flex;
   	justify-content: center;
@@ -131,7 +131,7 @@ body {
 	}
 	
 .grid-item-ric {
-	font-family: "DejaVu Sans Mono", monospace;
+	font-family: "Brush Script MT", cursive;
 	font-size: 40px;
 	display: flex;
   	justify-content: center;
@@ -166,7 +166,7 @@ body {
 	}
 	
 .grid-item-pro {
-	font-family: "Stencil Std", fantasy;
+	font-family: "Brush Script MT", cursive;
 	background-color: #BFC9CA;
 	font-size: 40px;
 	display: flex;
@@ -190,7 +190,7 @@ body {
 	}
 	
 .grid-item-bb {
-	font-family: "Jazz LET", fantasy;
+	font-family: "Brush Script MT", cursive;
 	font-size: 40px;
 	display: flex;
   	justify-content: center;
