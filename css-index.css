@@ -43,9 +43,8 @@ body {
 }
 	
 .grid-item-welcome {
-	padding: 1em;
 	font-family: "arial", sans-serif;
-	font-size: 10px;
+	font-size: 15px;
 	grid-column-start: 2;
 	grid-row-start: 2;
 	background-color: #FFFAE1;
