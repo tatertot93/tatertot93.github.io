@@ -67,6 +67,9 @@ body {
 	grid-row-start: 2;
 	grid-row-end: 5;
 	background-color: #BFC9CA;
+	border: 5px;
+	border-style: outset;
+	border-color: #A0BBA2;
 	}
 	
 .accordion {
