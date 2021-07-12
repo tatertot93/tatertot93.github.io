@@ -163,8 +163,7 @@ body {
 
 
 .grid-item-photo {
-	border: 10px;
-	border-color: black;
+	border: 10px solid black;
 	display: flex;
   	justify-content: center;
  	align-items: center;
