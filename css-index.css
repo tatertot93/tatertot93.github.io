@@ -26,10 +26,6 @@ body {
  	align-items: center;
 }
 
-.grid-item-cor {
-	grid-column-start: 1;
-	grid-row-start: 2;
-}
 
 .grid-item-cor > img {
   object-fit: cover;
@@ -93,11 +89,7 @@ body {
   overflow: hidden;
 }
 
-grid-item-cor > img {
-  object-fit: cover;
-  width: 200px;
-  max-height: 200px;	
-}
+
 .grid-item-gal > img {
   object-fit: cover;
   width: 200px;
