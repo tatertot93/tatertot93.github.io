@@ -147,19 +147,10 @@ body {
 	border-color: #A0BBA2;
 	}
 	
-.grid-item-pro {
-	font-family: "Brush Script MT", cursive;
-	background-color: #BFC9CA;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
- 	margin: 1px;
-	grid-column-start: 1;
-	grid-row-start: 6;
-	border-radius: 30px;
-}
+.grid-item-pro > img {
+  object-fit: cover;
+  width: 200px;
+  max-height: 200px;
 
 
 .grid-item-photo {
