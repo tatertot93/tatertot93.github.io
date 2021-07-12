@@ -44,6 +44,8 @@ body {
 	
 .grid-item-welcome {
 	font-family: "arial", sans-serif;
+	padding-left: 1em;
+	padding-right: 1em;
 	font-size: 15px;
 	grid-column-start: 2;
 	grid-row-start: 2;
@@ -57,6 +59,7 @@ body {
 	color:#04620B;
 	font-weight: bold;
 	font-size: 50px;
+	margin-bottom: 2px;
 	font-family: "Amatic SC";
 }	
 	
