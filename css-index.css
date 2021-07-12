@@ -92,6 +92,8 @@ body {
 
 
 .grid-item-gal {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
   width: 200px;
   max-height: 200px;
 
@@ -112,11 +114,15 @@ body {
 	}
 	
 .grid-item-win {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
   width: 200px;
   max-height: 200px;
 	}
 	
 .grid-item-ric {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
   width: 200px;
   max-height: 200px;	
 	}
@@ -146,6 +152,8 @@ body {
 	}
 	
 .grid-item-pro {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
   width: 200px;
   max-height: 200px;
 	}
@@ -160,6 +168,8 @@ body {
 	}
 	
 .grid-item-bb {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
   width: 200px;
   max-height: 200px;
 	}
