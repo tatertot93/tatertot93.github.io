@@ -30,8 +30,7 @@ body {
 
 .grid-item-nav {
 	display: flex;
-  	justify-content: center;
- 	align-items: center;
+	possition: absolute;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
