@@ -163,16 +163,7 @@ body {
 	grid-row-end: 8;
 	}
 	
-.grid-item-bb {
-	font-family: "Brush Script MT", cursive;
-	font-size: 40px;
-	display: flex;
-  	justify-content: center;
- 	align-items: center;
- 	padding: 5px;
-  	margin: 1px;
-	grid-column-start: 1;
-	grid-row-start: 7;
-	background-color: #BFC9CA;
-	border-radius: 30px;
-	}
+.grid-item-bb > img {
+  object-fit: cover;
+  width: 200px;
+  max-height: 200px;
