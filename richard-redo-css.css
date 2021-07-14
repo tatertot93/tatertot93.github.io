@@ -19,7 +19,12 @@ body {
 	text-align: center;
 	font-size: 3em;
 	border-style: solid;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
 	}
+
 
 .grid-container-nav {
 /*this is working. Don't change it*/
