@@ -4,10 +4,11 @@ body {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat (5, 1fr);
-	grid-template-rows: repeat (6, 1fr);
+	grid-template-columns: 0.5fr 1fr 1fr 1fr;
 	grid-gap: 10px;
+	height: 100vh;
 	}
+
 
 @font-face {
   	font-family: remnant;
@@ -24,7 +25,6 @@ body {
 	grid-row-start: 1;
 	grid-row-end: 2;
 	}
-
 
 .grid-container-nav {
 /*this is working. Don't change it*/
@@ -77,7 +77,7 @@ li a:hover {
 	grid-column-end: 2;
 	grid-row-start: 3;
 	grid-row-end: 4;
-
+	place-self: center;
 	}
 
 
@@ -87,6 +87,8 @@ li a:hover {
  	grid-column-end: 4;
  	grid-row-end: 5;
  	z-index: -1;
+	background-color: pink;
+	place-self: center;
 	}
 	
 .grid-container-math-overlay {
@@ -94,7 +96,9 @@ li a:hover {
  	grid-row-start: 3;
  	grid-column-end: 3;
  	grid-row-end: 4;
-	margin-left: 60px;
+ 	margin-left: 70px;
+ 	margin-bottom: 130px;
+	place-self: center;
 	}
 
 
@@ -103,6 +107,7 @@ li a:hover {
  	grid-row-start: 3;
  	grid-column-end: 5;
  	grid-row-end: 5;
+ 	background-color: orange;
 
 	}
 
@@ -111,12 +116,16 @@ li a:hover {
  	grid-row-start: 4;
  	grid-column-end: 2;
  	grid-row-end: 5;
+ 	background-color: yellow;
 
 }
 
 .grid-container-foot {
+	font-family: remnant;
+	text-align: center;
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 5;
 	grid-row-end: 6;
+	background-color: green;
 	}
