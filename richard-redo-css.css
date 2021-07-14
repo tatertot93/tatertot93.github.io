@@ -108,6 +108,7 @@ li a:hover {
  	grid-column-end: 5;
  	grid-row-end: 5;
  	background-color: orange;
+	padding: 5px;
 
 	}
 
@@ -117,6 +118,7 @@ li a:hover {
  	grid-column-end: 2;
  	grid-row-end: 5;
  	background-color: yellow;
+	padding: 5px;
 
 }
 
