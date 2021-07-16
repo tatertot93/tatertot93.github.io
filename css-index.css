@@ -1,6 +1,10 @@
 body {
 }
 
+* {
+	border-sizing: box-border;
+}
+
 .grid-container {
 	padding: 2em;
 	background-color: gray;
