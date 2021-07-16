@@ -145,4 +145,7 @@ li a:hover {
 	grid-row-start: 5;
 	grid-row-end: 6;
 	background-color: green;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
 	}
