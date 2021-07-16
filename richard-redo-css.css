@@ -23,6 +23,7 @@ body {
 	text-align: center;
 	font-size: 3em;
 	border-style: solid;
+	border-width: 10px;
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 1;
@@ -93,7 +94,6 @@ li a:hover {
  	grid-column-end: 4;
  	grid-row-end: 5;
  	z-index: -1;
-	background-color: pink;
 	place-self: center;
 	border-style: solid;
 	border-color: green;
