@@ -107,8 +107,8 @@ li a:hover {
  	grid-row-end: 4;
  	margin-left: 175px;
  	margin-top: 60px;
-	position: absolute;
-	/*change this back to relative if it doesn't work*/
+	position: relative;
+	/*For some reason, I can't figure out how to get this to adjust as the window is resized*/
 	}
 
 
