@@ -107,7 +107,8 @@ li a:hover {
  	grid-row-end: 4;
  	margin-left: 175px;
  	margin-top: 60px;
-	position: relative;
+	position: absolute;
+	/*change this back to relative if it doesn't work*/
 	}
 
 
