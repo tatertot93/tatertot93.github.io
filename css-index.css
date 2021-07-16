@@ -35,6 +35,9 @@ body {
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 8;
+	border-style: dashed;
+	border-color: blue;
+	border-width: 5px;
 }
 
 	
