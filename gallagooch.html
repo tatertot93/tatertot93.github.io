@@ -1,101 +1,58 @@
-<!DOCTYPEhtml>
-<html lang="en">
-<head>
-	<title> The Lads </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1"  />
-	<style>
-		body {
-			font-family: "arial", sans-serif;
-			box-sizing: border-box;
-			y-index: 1
-		}
- 		
-		header {
-			background-color: #900C3F;
-			padding: 30px;
-			text-align: left;
-			font-size: 20px;
-			color: white;
-		}
-/* Style the top navigation bar */
-		.topnav {
-  			overflow: hidden;
- 		 	background-color: #333;
-		}
-
-/* Style the topnav links */
-		.topnav a {
-  			float: left;
-  			display: block;
-  			color: #f2f2f2;
-  			text-align: center;
-  			padding: 14px 16px;
-  			text-decoration: none;
-		}
-
-/* Change color on hover */
-		.topnav a:hover {
-  			background-color: #ddd;
-  			color: black;
-		}
-
-		#primary {
-			float: left;
-			width: 70%;
-			background: #FF3C3C;
-			z-index: 1;
-		}
-		
-		img {
-			width: 70%;
-			z-index: 2;
-			}
-			
-		#video {
-			width: 30%;
-			float: right;
-			}
-			
-		#quote {
-			color: white;
-			position: absolute;
-			width: 30%;
-			margin-top: 175px;
-			z-index: 3;
-		}
-	</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Lads - Gallagooch</title>
+    <meta name="description"
+          content="Gallagooch's page on Taylorboi and the Lads" />
+     <meta name="keywords"
+           content="gallagooch, bonobo" />
+    <link href="gallagooch-style.css" type="text/css" rel="stylesheet />"
+  </head>
 <body>
-	<header>
-		<h1 style="color: white; font-size: 50px"> Gallagooch </h1>
-	</header>
-		<nav class="topnav">
-  			<a href="index.html">Taylorboi</a>
- 			<a href="corlicker.html">Corlicker</a>
-			<a href="richard.html">Richard</a>
-  			<a href="winsdicker.html">Winsdicker</a>
-  			<a href="The-Professor.html">The Professor</a>
-		</nav>
-	<div id="video">
-	<iframe width="280" height="157" src="https://www.youtube.com/embed/JXRN_LkCa_o?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-	<div id="primary">
-		<h1 style="color: blue"> AKA Gallagrundle </h1>
-		<p style="color: green"><i> Do not be seduced by this nastyboi. </i> </p>
-		<img id="bonobo.jpg" width="720" height="320" alt="a relaxed bonobo with his arm extended" src="/bonobo.jpg">
-	</div>		
-	<div id="quote">
-		<blockquote cite="https://genius.com/Chris-brown-loyal-lyrics" style="font-size: 25px">
+  	<header>
+    	<div id="quote">
+			<blockquote cite="https://genius.com/Chris-brown-loyal-lyrics">
 			"These hoes ain't loyal" 
-		</blockquote>
-		<cite style="float: right;"> - Wayne Gretzky </cite>
-		<br>
-		<cite style="float: right; font-size: 15px"> - Brian </cite>
-	</div>
-	<script type="text/javascript">
-	alert("Brian, stop simping.");  
-	</script>
+		  	</blockquote>
+		  	<cite> - Wayne Gretzky </cite>
+	  		<br>
+		  	<cite> - Brian </cite>
+	  	</div>
+    	<div id="banner-image">
+      		<img src="./bonobo.jpg" id="bonobo.jpg" alt="a relaxed bonobo with his arm extended" />
+    	</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">TAYLORBOI</a></li>
+          <li><a href="corlicker.html">CORLICKER</a></li>
+		  <li><a href="richard.html">RICHARD</a></li>
+          <li><a href="winsdicker.html">WINSDICKER</a></li>
+          <li><a href="The-Professor.html">THE PROFESSOR</a></li>
+        </ul>
+      </nav>
+      <div id="title-bar">
+        <h1>gallagooch</h1>
+      </div>
+  </header>
+  <main>
+    <div class="side-image" id="eggplant">
+    <img id="eggplant" width="313" height="685" alt="eggplant" src="eggplant.png"> 
+    </div>
+    <div class="main-box" id="background-box">
+    </div>
+    <div class="main-box" id="text-box">
+      <h2>Lorem Ipsum</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor felis, porta ac est at, semper rhoncus orci. Maecenas vitae pharetra nisi. Ut euismod metus ut turpis tempus, a vestibulum lorem luctus. Quisque pharetra sollicitudin eros, et fringilla libero malesuada vel. Sed vitae dapibus tortor. Sed nibh metus, congue ac faucibus sed, imperdiet non libero. Donec ut eros quam. Maecenas non nulla sit amet dolor lobortis vulputate. Aliquam ac enim id enim aliquam lobortis sed sed tortor. Aenean sit amet tempor neque. Integer vehicula scelerisque egestas.</p>
+    </div>
+    <div id="video">
+      <iframe src="https://www.youtube.com/embed/JXRN_LkCa_o?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </main>
+  <footer>
+    <p>Nunc nisl eros, tincidunt a mi sodales, congue venenatis ligula. Phasellus accumsan purus nisl, eu dignissim velit pellentesque vitae. Vivamus maximus, dui id consectetur commodo, nunc nunc porta magna, sed feugiat diam ipsum eget dolor.</p>
+  </footer>
 </body>
-</html>
+ 
 
 
-		
+      
