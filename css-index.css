@@ -152,7 +152,7 @@ body {
 	border: 8px;
 	border-style: outset;
 	border-color: #A0BBA2;
-	max-height: 150px;
+
 	}
 
 #sidetext {
@@ -160,7 +160,7 @@ body {
 	padding: 1em;
 	font-size: 15px;
 	overflow: scroll;
-
+	max-height: 100px;
 	}
 
 .grid-item-photo {
