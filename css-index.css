@@ -160,12 +160,13 @@ body {
 	font-family: "arial", sans-serif;
 	padding: 1em;
 	font-size: 15px;
+	max-height: 300px;
 	}
 
 #sidetext.ul {
 	overflow: scroll;
 
-	max-height: 300px;
+
 	}
 
 .grid-item-photo {
