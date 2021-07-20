@@ -163,8 +163,7 @@ body {
 
 #sidetext.ul {
 	overflow: scroll;
-	min-height: 200px;
-	max-height: 300px;
+
 	}
 
 .grid-item-photo {
