@@ -152,6 +152,8 @@ body {
 	border: 8px;
 	border-style: outset;
 	border-color: #A0BBA2;
+	min-height: 300px;
+	max-height: 300px;
 
 	}
 
@@ -159,11 +161,14 @@ body {
 	font-family: "arial", sans-serif;
 	padding: 1em;
 	font-size: 15px;
+	min-height: 300px;
+	max-height: 300px;
 	}
 
 #sidetext.ul {
 	overflow: scroll;
-
+	min-height: 300px;
+	max-height: 300px;
 	}
 
 .grid-item-photo {
