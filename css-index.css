@@ -152,6 +152,7 @@ body {
 	border: 8px;
 	border-style: outset;
 	border-color: #A0BBA2;
+	overflow: scroll;
 	}
 
 #sidetext {
