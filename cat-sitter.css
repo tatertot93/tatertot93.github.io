@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	float: center;
+	font-family: verdana, arial, sans-serif;
+	}
+
+body {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 5px;
+	max-width: 1200px;
+	background-color: lightgray;
+	}
+	
+
+header {
+	border: 2px solid black;
+	/*grid-area: 1 / 1 / 2 / 7;*/
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+	background-color: lightblue;
+	}
+
+.head {
+	display: inline-block;}
+
+#logo {
+	display: inline-block;
+	float: right;
+	}
+
+
+nav {
+	border: 2px solid black;
+	/*grid-area: 2 / 1 / 3 / 7;*/
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: lightyellow;
+	}
+	
+h2 {
+	margin-left: 30px;}
+	
+#about-us {
+	/*grid-area: 3 / 1 / 5 / 5;*/
+	border: 2px solid black;
+	grid-column-start: 1; 
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	background-color: lightblue;
+	padding: 10px;
+	}
+	
+#services-pricing {
+	/*grid-area: 5 / 1 / 7 / 5;*/
+	border: 2px solid black;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-color: lightyellow;
+	}
+
+table {
+	width: minmax(50px 200px);
+	margin: auto auto 10px auto;
+	border: 2px solid black;
+	background-color: white;
+	}
+	
+th, td {
+	padding: 7px 10px 10px 10px;
+	} 
+	
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;
+	}	
+
+
+tr:hover {
+	background-color: lightblue;
+	}
+
+#reviews {
+	/*grid-area: 3 / 5 / 14 / 7;*/
+	border: 2px solid black;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 3;
+	grid-row-end: 14;
+	max-width: 400px;
+	background-color: lightgreen;
+	padding: 10px;
+	}
+	
+#reviews figure {
+	border: 2px solid black;
+	padding: 5px;}
+	
+#reviews div {
+	border: 2px solid black;
+	margin-top: 10px;
+	padding: 5px;}
+	
+#contact-us {
+	/*grid-area: 7 / 2 / 10 / 4;*/
+	border: 2px solid black;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 10;
+	padding: 10px;
+	background-color: white;
+	}
+	
+#gallery {
+	/*grid-area: 11 / 2 / 13 / 4;*/
+	border: 2px solid black;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 11;
+	grid-row-end: 13;
+	display: inline-block;
+	flex-wrap: wrap;
+	background-color: lightblue;
+	
+	}
+	
+footer {
+	/*grid-area: 14 / 1 / 15 / 7;*/
+	border: 2px solid black;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 14;
+	grid-row-end: 15;
+	background-color: gray;
+	text-align: center;
+	}
