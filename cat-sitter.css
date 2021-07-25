@@ -21,6 +21,7 @@ header {
 	grid-row-start: 1; 
 	grid-row-end: 2;
 	background-color: lightblue;
+	padding: 20px;
 	}
 
 .head {
@@ -40,6 +41,28 @@ nav {
 	grid-row-start: 2;
 	grid-row-end: 3;
 	background-color: lightyellow;
+	}
+	
+ul {
+	list-style: none;
+	}
+	
+nav li {
+	display: block;
+	width: 100px;
+	height: 70px;
+	float: left;
+	border: 1px solid black;
+	background-color: #fff;
+	margin: 0px 10px 10px 10px;
+	text-align: center;
+	}
+	
+nav a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: #009
 	}
 	
 h2 {
@@ -105,13 +128,19 @@ tr:hover {
 	
 #reviews figure {
 	border: 2px solid black;
-	padding: 5px;}
+	padding: 5px;
+	background-color: #fff;
+	}
 	
 #reviews div {
 	border: 2px solid black;
 	margin-top: 10px;
-	padding: 5px;}
+	padding: 5px;
+	background-color: #fff;
+	}
 	
+
+
 #contact-us {
 	/*grid-area: 7 / 2 / 10 / 4;*/
 	border: 2px solid black;
@@ -146,3 +175,5 @@ footer {
 	background-color: gray;
 	text-align: center;
 	}
+	
+	
